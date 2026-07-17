@@ -65,7 +65,7 @@ app.include_router(router)
 async def root():
     return {
         'name':      'ATS Resume Analyzer API',
-        'version':   '2.0.0',
+        'version':   '1.0.0',
         'endpoints': {
             'POST   /api/v1/analyze-resume': 'Analyze a resume',
             'GET    /api/v1/history':        'Get user history',
